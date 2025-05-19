@@ -1,5 +1,9 @@
 import '@/app/ui/global.css'
 import { inter } from './ui/fonts';
+export const metadata: Metadata = {
+  title: 'DevNexus Dashboard',
+  description: 'Your custom dashboard for tracking everything that matters.',
+};
 export default function RootLayout({
   children,
 }: {
