@@ -87,7 +87,7 @@ export type InvoiceForm = {
   status: 'pending' | 'paid';
 };
 export type State = {
-  errors: {
+  errors?: {
     customerId?: string[],
     amount?: string[],
     status?: string[]
