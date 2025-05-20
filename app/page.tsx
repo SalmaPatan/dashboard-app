@@ -27,8 +27,8 @@ export default function Page() {
           <Image
             src="/hero-desktop.png"
             width={1000}
-            height={700}
-            className="hidden md:block"
+            height={500}
+            className="hidden md:block max-h-[490px]"
             alt="Screenshots of dashboard"
 
           />
